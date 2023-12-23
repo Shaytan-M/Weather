@@ -1,7 +1,7 @@
 import './assets/main.css';
-import VueGoogleMaps from '../node_modules/@fawmi/vue-google-maps';
-import { createApp } from '../node_modules/vue';
-import { createPinia } from '../node_modules/pinia';
+import VueGoogleMaps from '@fawmi/vue-google-maps';
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
 import App from './App.vue';
 
 const app = createApp(App);
