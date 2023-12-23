@@ -1,5 +1,5 @@
 import './assets/main.css';
-import VueGoogleMaps from '@fawmi/vue-google-maps';
+import VueGoogleMaps from '../node_modules/@fawmi/vue-google-maps';
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import App from './App.vue';
